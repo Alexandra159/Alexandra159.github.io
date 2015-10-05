@@ -4,16 +4,15 @@
 	font-weight: bold;
 	font-size: 20px;
 }
-#photo{
-	height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-    border-image: cover;
+#photo
+    background: url(photos/background.jpg);
+    background-size: 30px 40px;
+    background-repeat: no-repeat;
 }
 body {
-	background-image: url("background.jpg");
 	text-align: left;
+	padding: auto;
+	font-size: 20px;
 }
 h1, title {
 	text-align: center;
@@ -21,9 +20,11 @@ h1, title {
 li {
 	text-align: left;
 	font-style: italic;
+	padding: auto;
 }
 ul {
 	text-align: center;
 	text-decoration: none;
+	padding: 10px 10px 10px 10px;
 }
 
