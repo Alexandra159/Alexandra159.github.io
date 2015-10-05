@@ -1,0 +1,29 @@
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+#photo{
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    border-image: cover;
+}
+body {
+	background-image: url("background.jpg");
+	text-align: left;
+}
+h1, title {
+	text-align: center;
+}
+li {
+	text-align: left;
+	font-style: italic;
+}
+ul {
+	text-align: center;
+	text-decoration: none;
+}
+
