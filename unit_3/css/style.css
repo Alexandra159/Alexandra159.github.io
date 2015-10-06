@@ -1,20 +1,9 @@
-#slogan {
-	font-style: italic;
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-}
-#photo
-    background: url(photos/background.jpg);
-    background-size: 30px 40px;
-    background-repeat: no-repeat;
-}
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	text-align: left;
-	padding: auto;
 	font-size: 20px;
 }
-h1, title {
+h1 {
+	padding:25% 0 0 25%;
 	text-align: center;
 }
 li {
@@ -24,7 +13,18 @@ li {
 }
 ul {
 	text-align: center;
-	text-decoration: none;
+	list-style-type: none;
 	padding: 10px 10px 10px 10px;
 }
-
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+#photo {
+    background: url(../photos/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:90vh;
+}
