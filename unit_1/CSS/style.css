@@ -1,5 +1,5 @@
 body {
-	background: rgb(21,21,24);
+	background: #212124;
 }
 h1, h2, p {
 	color:white;
@@ -16,19 +16,14 @@ div {
 }
 img {
 	margin: 40px 0px 0px 0px;
-	border: 7px solid gray;
+	border: 1px solid white;
 	border-radius: 20px;
 }
 header {
-	background-image: url("background.jpg");
-	background-size: cover;
 	text-align: center;
-
 }
 a {
-	color: white;
 	text-decoration: none;
-
 }
 li {
 	display: inline;
@@ -39,6 +34,22 @@ ul {
 	padding: 10px;
 	background: black;
 	text-align: center;
+}
+#winter {
+	background-color: #d3e1ff;
+	color: blue;
+}
+#spring {
+	background-color: #AAF0D1;
+	color: purple;
+}
+#summer {
+	background-color: #baf665;
+	color: green;
+}
+#fall {
+	background-color: #E3CCA1;
+	color: brown;
 }
 /*resize images*/
 #logo img {
