@@ -1,23 +1,20 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: #212124;
-}
-h1, h2, p {
 	color:white;
-	text-align: center;
 	font-family: Arial, sans-serif;
 }
-div {
-
-	width: 400px;
-	height: 300px;
-	border: 2px transparent;
-	display: inline-block;
-	margin: 20px;
+section {
+	height:95vh;
+	position:relative;
 }
-img {
-	margin: 40px 0px 0px 0px;
-	border: 1px solid white;
-	border-radius: 20px;
+div {
+	background:rgba(190,2,26,.8);
+	padding:2em;
+	width: 400px;
+	position:absolute;
+	top:25%;
+	left:25%;
 }
 header {
 	text-align: center;
@@ -36,82 +33,26 @@ ul {
 	text-align: center;
 }
 #winter {
-	background-color: #d3e1ff;
-	color: blue;
+	background:url(../photos/december.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 #spring {
-	background-color: #AAF0D1;
-	color: purple;
+	background:url(../photos/april2.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 #summer {
-	background-color: #baf665;
-	color: green;
+	background:url(../photos/july.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 #fall {
-	background-color: #E3CCA1;
-	color: brown;
+	background:url(../photos/november.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 /*resize images*/
 #logo img {
 	width: 150px;
-	height: 150px;
-}
-#december img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#january img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#february img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#march img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#april img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#may img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#june img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#july img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#august img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#september img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#october img {
-	width: 100%;
-	height: 100%;
-}
-/*resize images*/
-#november img {
-	width: 100%;
-	height: 100%;
 }
