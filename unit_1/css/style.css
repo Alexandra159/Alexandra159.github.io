@@ -4,17 +4,43 @@ body {
 	color:white;
 	font-family: Arial, sans-serif;
 }
+#winter-main {
+	background: url(../photos/winter.jpg);
+	background-position: cover;
+}
+#spring-main {
+	background: url(../photos/spring2.jpg);
+	background-position: cover;
+}
+#summer-main {
+	background: url(../photos/summer.jpg);
+	background-position: cover;
+}
+#fall-main {
+	background: url(../photos/fall.jpg);
+	background-position: cover;
+}
 section {
 	height:95vh;
 	position:relative;
 }
+img{
+	border: 1px solid white;
+	border-radius: 20px;
+
+}
 div {
 	background:rgba(190,2,26,.8);
+	background: rgba(247,163,80,.8);
+	background: darkred;
 	padding:2em;
-	width: 400px;
+	width: 300px;
+	height: auto;
 	position:absolute;
 	top:25%;
 	left:25%;
+	display: inline-block;
+
 }
 header {
 	text-align: center;
@@ -25,12 +51,11 @@ a {
 li {
 	display: inline;
   	padding: 0px 10px 0px 10px;
-
+	text-align: center;
 }
 ul {
 	padding: 10px;
-	background: black;
-	text-align: center;
+	
 }
 #winter {
 	background:url(../photos/december.jpg);
@@ -38,7 +63,7 @@ ul {
 	background-repeat:no-repeat;
 }
 #spring {
-	background:url(../photos/april2.jpg);
+	background:url(../photos/april.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -55,4 +80,8 @@ ul {
 /*resize images*/
 #logo img {
 	width: 150px;
+	height: 100px;
+	display: inline;
+  	padding: 0px 10px 0px 10px;
 }
+

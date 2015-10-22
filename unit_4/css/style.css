@@ -7,13 +7,16 @@ body {
 	background-size: cover;
 	max-height: 1150px;
 }
-h1 {
+h1, h2 {
 	font-family: 'Indie Flower', cursive;
 	color: lightgreen;
+	text-align: center;
 }
-h2{	font-family: 'Indie Flower', cursive;
-	color: lightgreen;
-
+h3 {	
+	font-family: 'Indie Flower', cursive;
+	color: green;	
+	font-size: 50px;
+	text-align: center;
 }
 section {
 	border: none;
@@ -29,22 +32,22 @@ p {
 	font-size: 28px;
 }
 li {
-	text-align: left;
 	font-style: italic;
 	margin: 0px 100px;
 	color: blue;
 	text-decoration: underline;
 	font-weight: bold;
 }
-ul {
-	text-align: center;
-
-}
 img {
 	width: 300px;
 	height: 200px;
 	position: relative;
    	top: 100%;
+
+}
+form {
+	text-align: center;
+	font-size: 18
 }
 #name {
 	margin: 0px 0px 100px 0px;
@@ -56,9 +59,5 @@ img {
 	font-style: inherit;
 	font-size: 30px;
 	margin: 2px;
-}
-#contact {
-	text-align: top;
-	font-size: 30px;
 }
 
