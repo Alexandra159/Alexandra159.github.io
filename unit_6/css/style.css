@@ -1,66 +1,134 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	font-size: 18px;
-	background: rgba(166,204,56,.5);
-	font-family: palatino, georgia, serif;
-	line-height: 1.5em;
-	margin: 0em;
+	font-family: Arial, sans-serif;
+	text-align: center;
+  	padding: 10px 100px;
+ 	margin: 0px;
+ 	background: radial-gradient(white, pink, blue);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
 }
-h1 {
-	font-size: 2em;
-}
-h2 {
-	font-size: 1.5em;
-	padding: .8em 0;
-}
-h3 {
-	font-size: 1em;
-	padding: 1em 0 0 1em;
+header {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: blue;
+	font-size: 40px;
 }
 h1, h2 {
-	border-bottom: 4px solid black;
-	display: inline-block;
-	padding-bottom: 0em;
-	padding-left: 2em; 
-}
-div {
-	background: rgb(166,204,56);
-	margin: 1em 15em;
-	display: block;
-	width: 400px;
-}
-strong {
-	font-variant: small-caps;
-	font-weight:bold; 
+	color: blue;
+	padding: 1em;
+	margin: 0;
+	font-family: 'Gloria Hallelujah', cursive;
 	text-align: center;
+}
+h3 {
+	padding: 10px;
 }
 p {
-	padding: 1em 0 0 1em;
+	color: black;
+	margin: auto;
+	line-height: 2em;
+	font-family: sans-serif;
+}
+p.ex {
+	height: 400px;
+	width: 500px;
+	font-size: 16px;
+	padding-top: 50px;
+	margin: auto;
+	font-family: 'Diplomata SC', cursive;
+}
+a {	
+	text-decoration: none;
+	color: blue;
+	padding: 10px;
+	margin: 0;
+}
+nav {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	padding: 50px;
+	width: 100%;
+}
+li {
+	text-decoration: none;
 }
 img {
-	display: block;
-	margin: 0 auto;
-	width: 50px;
-	height: 50px;
+	margin: auto;
+	display: inline;
+	height: 300px; 
+	width: 200px;
+    padding: 0;
 }
-ul {
-	list-style: none;
+#logo {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	padding: 0;
 	margin: 0;
-	padding: 1em 2.5em 0 2.5em;
 }
-footer {
-	text-align: center;
-	padding: 1em 0;
+#logo1 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
 }
-#about {
+#fb, #twitter, #pinterest, #linkedin, #home, #phone, #mail {
+	display: inline;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+}	
+.photo {
+	margin: 0 100px 0 0;
+}
+#footer {
+	background-color: transparent;
+	font-style: italic;
+	font-family: Georgia, serif;
+	bottom: 0;
+	text-align: bottom;
+}
+.column-left{
 	float: left;
+	width: 33%;
 }
-#accomplishments {
+.column-center{
+	width: 33%;
+	display: inline-block;
+	max-height: 20px;
+	margin: 0 100px 0 0;
+}
+.column-right{
+	float: right;
+	width: 20%;
+	height: 20%;
+	margin: auto;
+}
+.experience{
 	float: left;
+	width: 50%;
+	display: inline-block;
 }
-#resume: {
+.education{
 	float: right;
+	width: 50%;
+	display: inline-block;
 }
-#contacts {
-	float: right;
+#container {
+	width: auto;
+}
+#part1 {
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+#part2 {
+	float: left;
+	width: 50%;
+	display: inline-block;
 }
