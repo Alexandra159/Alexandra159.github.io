@@ -53,6 +53,7 @@ nav {
 	font-family: Georgia, serif;
 	padding: 50px;
 	width: 100%;
+	clear: both;
 }
 li {
 	text-decoration: none;
@@ -92,6 +93,7 @@ img {
 	font-family: Georgia, serif;
 	bottom: 0;
 	text-align: bottom;
+	clear: both;
 }
 .column-left{
 	float: left;
