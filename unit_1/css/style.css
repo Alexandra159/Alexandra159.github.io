@@ -8,21 +8,34 @@ body {
 header {
 	text-align: center;
 }
-h1, h2 {
+h1, h2, h3, h4 {
 	text-transform: uppercase;
 	font-weight: 800px;
 	color: white;
 }
 h1 {
 	font-size: 2em;
+	padding: .5em;
 }
 h2 {
 	font-size: 1.5em;
+}
+h3 {
+	font-size: 1em;
+}
+h4 {
+	font-size: .5em;
 }
 nav {
 	background-color: darkred; 
 	position: relative;
 	clear: both;
+	font-size: 1.8em;
+	float: center;
+	margin: 0 0 3em 0;
+	display: block;
+	height: 70px;
+	text-align: center;
 }
 ul {
 	list-style: none;
@@ -39,21 +52,18 @@ a {
 	color: white;
 	padding: 1em 0 0 0;
 }
-nav {
-	font-size: 1.8em;
-	float: center;
-	margin: 0 0 3em 0;
-	display: block;
-	height: 70px;
-	text-align: center;
-	clear: both;
-}
 img {
 	display: block;
-	height: 100px;
-	width: 75px;
-	margin: 10px;
+	height: 150px;
+	width: 130px;
+	margin: 15px;
 	float: left;
+}
+#logo {
+	height: 130px;
+	width: 100px;
+	margin: 10px;
+
 }
 div {
 	background:darkred;
@@ -69,6 +79,16 @@ footer {
 	text-align: center;
 	clear: both;
 	margin: 0;
+}
+hr {
+	width: 100%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
 #one, #three {
 	top: 25%;
@@ -88,8 +108,8 @@ footer {
 #intro {
 	height: 25vh;
 	position:relative;
-	margin: 1em 0;
-	width: 800px;
+	margin: auto;
+	width: 1000px;
 	text-align: center;
 }
 #winter {
@@ -128,18 +148,22 @@ footer {
 	float: left;
 	width: 30%;
 	display: inline;
-	padding: 0 0 2em 1em;
+	padding: 0 0 2em 2em;
 	height: auto;
+	border-right: 5px solid white;
+	margin: auto;
 }
 .column-center{
 	width: 30%;
 	display: inline;
 	float: left;
-	padding: 0 0 2em 1em;
+	padding: 0 0 2em 2em;
 	height: auto;
+	border-right: 5px solid white;
 }
 .container {
 	clear: both;
+	margin: auto;
 }
 #fb, #twitter, #pinterest, #instagram, #home, #phone, #mail, #apple, #android, #windows, #share {
 	display: inline;
@@ -149,8 +173,10 @@ footer {
 	margin: 0;
 }
 #winter-main {
-	background: url(../photos/winter.jpg);
+	background: url(../photos/winter2.jpg);
 	background-position: cover;
+	color: black; 
+	text-decoration: none;
 }
 #spring-main {
 	background: url(../photos/spring2.jpg);
@@ -169,5 +195,12 @@ footer {
     display: block;
     height: 0;
     clear: both;
+}
+.icons {
+	margin: 1em;
+	padding: 2em;
+	float: left;
+	width: 230px;
+	background-color: green;
 
-
+}
