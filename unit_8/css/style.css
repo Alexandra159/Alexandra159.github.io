@@ -9,7 +9,9 @@ header {
 	text-align: center;
 }
 p {
-	line-height: 1.5em;
+	line-height: 2em;
+	font-size: 1.45em;
+	font-family: serif;
 }
 h1, h2, h3, h4 {
 	text-transform: uppercase;
@@ -22,32 +24,33 @@ h1 {
 }
 h2 {
 	font-size: 1.5em;
+	line-height: 1.5em;
 	font-family: "Times New Roman" sans-serif;
 	text-align: center;
+	text-decoration: underline;
 }
 h3 {
 	padding: 1.5 .5 .5 0em;
-	font-size: 1em;
+	font-size: 1.25em;
 	line-height: 1.5em;
 	font-family: fantasy;
 	text-align: center;
 }
 h4 {
-	font-size: .75em;
+	font-size: 1em;
 	padding: 0 .5 .5 0em;
 	line-height: 1.5em;
 	font-family: italic;
+	color: darkred;
+	text-align: center;
 }
 nav {
 	background-color: darkred; 
 	position: relative;
 	clear: both;
 	font-size: 1.8em;
-	float: center;
 	margin: 0 0 3em 0;
-	display: block;
-	height: 2.4em;
-	text-align: center;
+	height: 2.5em;
 }
 ul {
 	list-style: none;
@@ -58,7 +61,12 @@ li {
   	padding: 1% 1.5em;
 	text-align: center;
 	float: left;
-	text-align: center;
+	width: 20%;
+	list-style: none;
+}
+input[type="text"] {
+	padding: .5em;
+	width: 100%;
 }
 a {
 	color: white;
@@ -66,18 +74,13 @@ a {
 }
 img {
 	display: block;
-	height: 100%;
 	width: 100%;
 	margin: 0;
 	float: left;
-	border: .1em solid white;
 }
-
 div {
 	background:darkred;
 	padding: 2em;
-	width: 20em;
-	height: auto;
 }
 footer {
 	background-color: darkred;
@@ -86,16 +89,10 @@ footer {
 	padding: 1em;
 	text-align: center;
 	clear: both;
-	margin: 0;
 }
 hr {
 	width: 100%;
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
+    margin-top: 0.5em auto;
     border-width: .1em;
 }
 #input {
@@ -103,34 +100,55 @@ hr {
 }
 #logo {
 	height: 8em;
-	width: 6em;
+	width: auto;
 	margin: .5em;
 	border-radius: 8%;
+	border: .1em solid white;
 }
 #one, #three {
 	top: 15%;
 	left: 5%;
 	position: absolute;
+	width: 45%;
 }
 #two, #four {
 	bottom: 20%;
 	right: 5%;
 	position: absolute;
+	width: 45%;
 }
 #we {
 	height: 2em;
 	width: 2em;
-	margin: 0 0 .5em 0;
+	padding: 0 0 .2em 0;
 }
 #intro {
-	height: 15em;
 	position:relative;
 	margin: auto;
-	width: 800px;
+	width: 80%;
+	padding: 0 2em 2em 2em;
 	text-align: center;
 }
+.column{
+	float: left;
+	width: 33%;
+	display: inline;
+	padding: 0 1em 0 1.5em;
+
+}
+.column-center{
+	width: 33%;
+	display: inline;
+	float: left;
+	padding: 0 1em 0 1.5em;  
+	border-right: .3em solid white;
+	border-left: .3em solid white;
+}
+.container {
+	clear: both;
+}
 #winter {
-	height: 40em;
+	height: 95vh;
 	position:relative;
 	margin: 1em 0;
 	background:url(../photos/december.jpg);
@@ -138,15 +156,15 @@ hr {
 	background-repeat:no-repeat;
 }
 #spring {
-	height: 40em;
+	height: 95vh;
 	position:relative;
 	margin: 1em 0;
 	background:url(../photos/april.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #summer {
-	height: 40em;
+	height: 95vh;
 	position:relative;
 	margin: 1em 0;
 	background:url(../photos/summer2.jpg);
@@ -161,33 +179,12 @@ hr {
 	background-size:cover;
 	background-repeat:no-repeat;
 }
-.column{
-	float: left;
-	width: 33%;
-	display: inline;
-	padding: 0 2em 0 2em;
-	height: auto;
-	margin: auto;
-}
-.column-center{
-	width: 33%;
-	display: inline;
-	float: left;
-	padding: 0 2em 0 2em;  
-	height: auto;
-	border-right: .3em solid white;
-	border-left: .3em solid white;
-}
-.container {
-	clear: both;
-	margin: auto;
-}
 #fb, #twitter, #pinterest, #instagram, #home, #phone, #mail, #apple, #android, #windows, #share {
 	display: inline;
-	width: 50px;
-	height: 50px;
+	width: auto;
+	height: 10vh;
 	padding: .5em;
-	margin: 0;
+	margin: 3em 0 0 0;
 }
 #winter-main {
 	background: url(../photos/winter.jpg);
@@ -252,115 +249,89 @@ hr {
 	max-height: 560px;
 	color: black;
 }
-@media only screen and (max-width: 768px) {
-	nav {
-	    float: none;
-	    display: inline; 
-	    background-color: darkred;
-  	}
+@media only screen and (max-width: 945px) {
 	li {
-		padding: 1% 2%
-	}	
-	h1 {
-		width: 100%;
-	}
-	h4 {
-	  	visibility: hidden; 
-	  	display: none; 
-	}  
-	h2 {
-		font-size: 1.5em;
-	  	text-align: center;
-	  	padding: 0;
-	  	margin: 0;
-	}
-	header {
-	  	background: darkred;
+		padding: 2% 2%
 	}
 	div {
-		height: auto;
-		font-size: 12px;
+		font-size: .8em;
 		width: 17em;
 		padding: 1em;
 	}
-	a{
-		width: 80%;
-		background: none;
+	#fb, #twitter, #pinterest, #instagram, #home, #phone, #mail, #apple, #android, #windows, #share {
+		height: 7vh;
+		padding: .2em;
+		margin: 1em 0 0 0;
 	}	
-	#twitter, #pinterest, #facebook, #instagram {
-	  	float: left;
-	  	display: inline-block;
-	}
 	#intro, #container{
-	    font-size: 1em; 
 	    display: inline-block;
-	    width: auto;
-	    max-width: 768px;
-	}
-	#intro {
-	  	height: 10em;
+	    width: 100%;
 	}
 	#container {
-	  	height: 22em;
+	  	height: auto;
 	  	position: inherit;
-	  	padding: 2em 0 0 0;
+	  	padding: 1em 0 0 0;
 	}
 	#summer, #winter, #spring, #fall {
-		background-size: 100%;
-		height: 25em;
+		height: 95vh;
+		background-position: center;
 	}	
 }
-@media only screen and (max-width: 320px) {
-  nav {
-    float: left;
-    margin: 0;
-    width: 100%;
-    display: inline-block;
-  }
-  h1 {
-  	font-size: 1.5em;
-  	line-height: 1.5em;
-  }
-  h2 {
-  	font-size: 1em;
-  	padding: 0 0 .4em 0;
-  }
-    li { 
-  	width: auto;
-  	padding: 1em;
-    height: 2em;
-    line-height: 1.5em;
-    font-size: .5em;
+@media only screen and (max-width: 695px) {
+	#fb, #twitter, #pinterest, #instagram, #home, #phone, #mail, #apple, #android, #windows, #share {
+		height: 6vh;
+		padding: .2em;
+		margin: 1em 0 0 0;
+	}	
+	nav {
+		font-size: 1.4em;
 	}
-  p {
-  	visibility: hidden; 
-	display: none; 
-  }
-  #summer, #winter, #spring, #fall {
-    background-size: 100%;
-    height: 13em;
-  }
-  .column-center {
-  	height: 100%;
-  }
-  #two, #four {
-    bottom: 20%;
-    right: 5%;
-    position: absolute;
-    width: 45%;
-   	font-size: 1.5em;
-  }
-  #one, #three {
-    top: 15%;
-    left: 5%;
-    position: absolute;
-    width: 45%;
-    font-size: 1.5em;
+	p {
+		font-size: 1.15em;
 	}
-  #container {
-  	height: 17em;
-  	position: inherit;
-  	padding: 2em 0 0 0;
+}
+@media only screen and (max-width: 497px) {
+ 	nav {
+		font-size: 1.3em; 
+		margin: 0;
 	}
-
+	li {
+		display: block;
+	}
+	a {
+		width: 20%;
+	}
+	#fb, #twitter, #pinterest, #instagram {
+    	margin: 1em 7.5% 0 7.5%;
+	}
+	#apple, #android, #windows {
+    	margin: 1em 11.5% 0 11.5%;
+	}
+	#share {
+		margin: 1em 45%;
+	}
+	.column, .column-center {
+		width: 100%
+	}
+	.column-center{
+		border-top: .1em solid;
+    	border-right: none;
+   		border-left: none;
+   		border-bottom: .1em solid;
+	}
+	#one, #two, #three, #four {
+		position: inherit;
+    	top: 0;
+   	 	bottom: 0;
+   	 	right: 0;
+   	 	left: 0;
+    	width: 100%;
+	}
+	#one {
+		background-color: 
+	}
+	#winter, #spring, #summer, #fall {
+		background: none;
+    	height: auto;
+	}
 }
