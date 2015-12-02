@@ -25,15 +25,14 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	line-height: 1.5em;
-	font-family: "Times New Roman" sans-serif;
 	text-align: center;
 	text-decoration: underline;
 }
 h3 {
 	padding: 1.5 .5 .5 0em;
-	font-size: 1.25em;
+	font-size: 1em;
 	line-height: 1.5em;
-	font-family: fantasy;
+	font-family:'Syncopate', sans-serif;
 	text-align: center;
 }
 h4 {
@@ -71,6 +70,7 @@ input[type="text"] {
 a {
 	color: white;
 	padding: 1em 0 0 0;
+	font-size: 1.5em;
 }
 img {
 	display: block;
@@ -109,13 +109,13 @@ hr {
 	top: 15%;
 	left: 5%;
 	position: absolute;
-	width: 45%;
+	width: 35%;
 }
 #two, #four {
 	bottom: 20%;
 	right: 5%;
 	position: absolute;
-	width: 45%;
+	width: 35%;
 }
 #we {
 	height: 2em;
@@ -197,6 +197,7 @@ hr {
 	background: url(../photos/spring2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: black;
 }
 #summer-main {
 	background: url(../photos/summer.jpg);
@@ -207,6 +208,7 @@ hr {
 	background: url(../photos/fall.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: black;
 }
 .clearfix:after {
     content: ".";
@@ -215,39 +217,40 @@ hr {
     clear: both;
 }
 .icons {
-	margin: 1em;
-	padding: 2em;
+	margin: 1%;
+	padding: 2%;
 	float: left;
-	width: 250px;
+	width: 23%;
 	background-color: rgb(124,46,137);
-	max-height: 550px;
+	height: 570px;
+    font-size: .75em;
 }
 .icons2 {
-	margin: 1em;
-	padding: 2em;
+	margin: 1%;
+	padding: 2%;
 	float: left;
-	width: 250px;
-	background-color: rgba(225,216,0,0.8) ;
-	max-height: 560px;
-	color: black;
+	width: 23%;
+	background-color: chocolate;
+	height: 570px;
+    font-size: .75em;
 }
 .icons3 {
-	margin: 1em;
-	padding: 2em;
+	margin: 1%;
+	padding: 2%;
 	float: left;
-	width: 250px;
-	background-color: green;
-	max-height: 560px;
-	color: black;
+	width: 23%;
+	background-color: darkgreen;
+	height: 570px;
+    font-size: .75em;
 }
 .icons4 {
-	margin: 1em;
-	padding: 2em;
+	margin: 1%;
+	padding: 2%;
 	float: left;
-	width: 250px;
+	width: 23%;
 	background-color: rgb(94,94,219);
-	max-height: 560px;
-	color: black;
+	height: 570px;
+    font-size: .75em;
 }
 @media only screen and (max-width: 945px) {
 	li {
@@ -276,6 +279,11 @@ hr {
 		height: 95vh;
 		background-position: center;
 	}	
+	.icons, .icons2, .icons3, .icons4 {
+		margin: 1%;
+		width: 31%;
+		height: 570px;
+   		font-size: .8em;
 }
 @media only screen and (max-width: 695px) {
 	#fb, #twitter, #pinterest, #instagram, #home, #phone, #mail, #apple, #android, #windows, #share {
@@ -289,6 +297,11 @@ hr {
 	p {
 		font-size: 1.15em;
 	}
+	.icons, .icons2, .icons3, .icons4 {
+	margin: 1%;
+	width: 31%;
+	height: 550px;
+    font-size: .8em;
 }
 @media only screen and (max-width: 497px) {
  	nav {
@@ -302,14 +315,23 @@ hr {
 		width: 20%;
 	}
 	#fb, #twitter, #pinterest, #instagram {
-    	margin: 1em 7.5% 0 7.5%;
+    	margin: 1em 5.5% 0 5.5%;
+    	height: 8vh;
 	}
 	#apple, #android, #windows {
-    	margin: 1em 11.5% 0 11.5%;
+    	margin: 1em 9.5% 0 9.5%;
+    	height: 8vh;
 	}
 	#share {
 		margin: 1em 45%;
+		height: 8vh;
 	}
+	.icons, .icons2, .icons3, .icons4 {
+ 		margin: 2%;
+    	width: 46%;
+    	height: 530px;
+    	font-size: .9em;
+   	}
 	.column, .column-center {
 		width: 100%
 	}
@@ -328,8 +350,17 @@ hr {
     	width: 100%;
 	}
 	#one {
-		background-color: 
+		background-color: darkblue;
 	}
+	#two {
+		background-color: purple;
+	}
+	#three {
+		background-color: darkgreen;
+	}
+	#four {
+		background-color: chocolate;
+	}	
 	#winter, #spring, #summer, #fall {
 		background: none;
     	height: auto;
