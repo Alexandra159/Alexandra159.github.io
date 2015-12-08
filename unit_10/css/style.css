@@ -252,6 +252,10 @@ hr {
 	height: 570px;
     font-size: .75em;
 }
+.innerpictures {
+	border: 1px solid white;
+	border-radius: 10px;
+}
 @media only screen and (max-width: 945px) {
 	li {
 		padding: 2% 2%
